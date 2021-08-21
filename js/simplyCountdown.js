@@ -242,7 +242,7 @@
                     countdown.innerHTML =
                         days + ' ' + dayWord + ', ' +
                         hours + ' ' + hourWord + ', ' +
-                        minutes + ' ' + minuteWord + ', ' +
+                        minutes + ' ' + minuteWord + '.';
                         seconds + ' ' + secondWord + '.';
 
                 } else {
