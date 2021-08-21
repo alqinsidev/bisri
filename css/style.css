@@ -940,14 +940,14 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
   /* background: rgba(241, 78, 149, 0.8); */
-  margin: 0 4px;
-  -webkit-border-radius: 50%;
+  margin: 0 1px;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%; */
   position: relative;
   animation: pulse 1s ease infinite;
 }
@@ -1186,7 +1186,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 .fh5co-heading p {
