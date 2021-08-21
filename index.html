@@ -685,6 +685,15 @@
         day: d.getDate(),
         enableUtc: false
     });
+
+		setInterval(function () {
+				var cd = countdown(Date.now(), new Date(2021, 8, 12, 10, 0, 0, 0))
+				$("#days").html(cd.days)
+				$("#hours").html(cd.hours)
+				$("#minutes").html(cd.minutes)
+				$("#seconds").html(cd.seconds)
+		}, 1000)
+
 </script>
 
 	</body>
