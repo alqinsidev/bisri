@@ -1845,5 +1845,38 @@ form label {
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
 }
+.countdown-box {
+    /* position: absolute; */
+    top: -50px;
+    margin-bottom: -50px;
+    width: 303.99px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.2deg);
+}
+
+.countdown-box .card-body {
+    padding: 0;
+}
+
+.countdown-box p {
+    padding: 0;
+    margin: 0;
+}
+
+.countdown-value {
+    font-family: Alegreya SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.countdown-key {
+    font-family: Farsan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+}
 
 /*# sourceMappingURL=style.css.map */
